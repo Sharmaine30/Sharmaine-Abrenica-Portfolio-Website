@@ -46,14 +46,14 @@ window.addEventListener('scroll', scrollActive)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '50px',
-    duration: 1500, /* Adjusted to make transitions smoother */
+    duration: 1500, 
     delay: 100,
-    reset: false, /* Ensures animations are played only once */
+    reset: false, 
 });
 
 sr.reveal('.home__data', { delay: 200 }); 
 sr.reveal('.home__img', { delay: 300 }); 
 sr.reveal('.about__subtitle, .about__text', { delay: 300 }); 
-sr.reveal('.about__container div', { interval: 200 }); /* Ensures each div in about section reveals one by one */
+sr.reveal('.about__container div', { interval: 200 });
 sr.reveal('.portfolio__img', { interval: 200 });
 sr.reveal('.contact__input, .contact__button', { interval: 200 });
